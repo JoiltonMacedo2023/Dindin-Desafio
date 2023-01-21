@@ -25,7 +25,7 @@
     letter-spacing: 0em;
     text-align: left;  
     margin-bottom: 44px;
-  }
+  }  
  form input {
     margin-bottom: 15px;
     padding: 10px 380px 10px 22px;
@@ -73,4 +73,10 @@ main div img {
   height: 444px;
   width: 444px;
   margin: 82px 163px 99px 833px;
-}   
+}
+main div img:hover {
+  transform: scale(1.2);  
+  transition: 0.4s;
+}
+
+  
