@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+.container {
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-left: 82px;
+}
+
+.container>div:not(:first-of-type) {
+    border-top: 5px solid #C4C4C4;
+    padding-top: 108px;
+    margin-right: 82px;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.sub-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #555555;
+    margin-bottom: 82px;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.box-course-description {
+    display: flex;
+    margin-bottom: 58px;
+    padding-left: 32px;
+}
+
+.box-course-description>div {
+    margin-left: 53px;
+}
+
+.description {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 37px;
+    margin-bottom: 53px;
+    width: 550px;
+}
+
+.button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    width: 216px;
+    border-radius: 62px;
+    color: #FFF;
+    background-color: #419488;
+    text-align: center;
+    padding: 13px 9px;
+}
+
+
+@media (max-width: 991px){
+    .description {
+       max-width: 300px;
+       font-size: 14px;
+       margin-top: 15px;
+       margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+    
+    img {
+        height: 325px;
+        width: 320px;
+    }
+    
+    .container {
+        width: 100%;
+        margin-top: 48px;
+        padding-left: 0;
+    }
+
+    .container>div:not(:first-of-type) {
+        border-top: 5px solid #C4C4C4;
+        padding-top: 58px;
+        margin-right: 5px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .description {
+       max-width: 150px;
+       font-size: 10px;
+       margin-top: 15px;
+       margin-bottom: 20px;
+       word-wrap: break-word;
+    }
+
+    h2 {    
+        font-size: 22px;
+    }
+    
+    img {
+        height: 200px;
+        min-width: 200px;
+        max-width: 200px;
+    }
+    
+    .container {
+        width: 100%;
+        margin-top: 48px;
+        margin-bottom: 120px;
+        padding-left: 0;
+    }
+
+    .container>div:not(:first-of-type) {
+        border-top: 5px solid #C4C4C4;
+        padding-top: 28px;
+        margin-right: 0;
+    }
+
+    .button {
+        font-size: 10px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 116px;
+    }
+
+    .box-course-description {
+        margin-bottom: 28px;
+        padding-left: 0;
+    }
+    
+    .box-course-description>div {
+        margin-left: 10px;
+    }
+    
+}
