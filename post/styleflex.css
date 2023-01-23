@@ -1,0 +1,47 @@
+
+.post-secao{
+  display:flex;
+  justify-content:space-between;
+  top: 237px;
+  bottom: 382,94px;
+  left:156px;
+  right:996px;
+}
+.post-secao div{
+  margin:2px;
+  flex-basis:100%;
+  
+}
+.post-secao img{
+  
+  max-width: 60%;
+  max-height:205px;
+  border:1px;
+  left: 156px;
+  top: 1132px;
+  border-radius: 1px;
+  justify-content: space-around;
+  align-content:center;
+  flex-basis: 100%;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+@media only screen and (max-width: 400px) {
+  .post-secao img{
+    margin-left: 70px;
+    flex-direction: column;
+    margin-bottom:50px;
+  }
+  .post-secao p{
+    margin-left: 25px;
+    margin-bottom:25px;
+  }
+  .post-secao .bottom-content{
+    margin-left: 25px;
+  }
+    
+
+  
+
+}
